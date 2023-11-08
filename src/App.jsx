@@ -42,7 +42,7 @@ function App() {
       <LoginProvider>
   <Router>
     <Routes>
-      <Route path="/Login" element={<SignIn />} />
+      <Route path="/" element={<SignIn />} />
       <Route path="/Register" element={<SignUp />} />
       <Route path="/Termsandcondition-page" element={<TermsCondition />} />
       <Route path="/dashboard/:email" element={<Dashboard />} />
